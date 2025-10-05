@@ -23,7 +23,7 @@ st.markdown("""
 with st.sidebar:
     selected = option_menu(
         menu_title="DASHBOARD",
-        options=["Tentang Proyek", "Tentang Dataset"],
+        options=["Proyek", "Tentang Dataset"],
     )
 
 # Fungsi bantu untuk encode gambar
@@ -32,7 +32,7 @@ def image_to_base64(img_path):
         return base64.b64encode(img_file.read()).decode()
 
 # Halaman "About Projects"
-if selected == "Tentang Proyek":
+if selected == "Proyek":
     path = os.path.dirname(__file__)
     my_file = os.path.join(path, 'images/img4.jpg')  
     if os.path.exists(my_file):
