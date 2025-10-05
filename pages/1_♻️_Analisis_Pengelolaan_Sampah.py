@@ -218,9 +218,9 @@ with st.expander("📝 Interpretasi Distribusi Klaster"):
     )
 st.markdown("---")
 # ===== OPSIONAL: RINGKASAN AKHIR =====
-with st.expander("📌 Ringkasan Temuan Umum"):
-    st.write(
-        f"Secara keseluruhan, analisis ini bertujuan untuk memberikan wawasan visual mengenai performa pengelolaan sampah "
-        f"tiap daerah di Kalimantan Timur pada tahun {selected}. Hasil ini diharapkan dapat membantu pengambilan keputusan "
-        f"oleh pemangku kebijakan maupun masyarakat untuk mendukung lingkungan yang lebih bersih dan berkelanjutan."
-    )
+# with st.expander("📌 Ringkasan Temuan Umum"):
+#     st.write(
+#         f"Secara keseluruhan, analisis ini bertujuan untuk memberikan wawasan visual mengenai performa pengelolaan sampah "
+#         f"tiap daerah di Kalimantan Timur pada tahun {selected}. Hasil ini diharapkan dapat membantu pengambilan keputusan "
+#         f"oleh pemangku kebijakan maupun masyarakat untuk mendukung lingkungan yang lebih bersih dan berkelanjutan."
+#     )

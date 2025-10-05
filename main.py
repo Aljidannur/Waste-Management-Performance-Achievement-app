@@ -3,7 +3,7 @@ from streamlit_option_menu import option_menu
 from PIL import Image
 import os
 import base64
-import pandas as pd  # ✅ Tambahkan ini
+import pandas as pd  
 
 # Konfigurasi halaman
 st.set_page_config(
@@ -11,7 +11,7 @@ st.set_page_config(
     page_icon="📊",
 )
 
-# Judul utama
+
 st.markdown("""
     <h1 style='text-align: center;'>
         Dashboard Capaian Kinerja Pengelolaan Sampah Provinsi Kalimantan Timur
@@ -50,7 +50,7 @@ if selected == "Tentang Proyek":
         # Interpretasi singkat
         st.markdown("""
         <div style='text-align: justify; margin-top: 10px;'>
-            Dashboard ini dirancang untuk menyajikan informasi capaian kinerja pengelolaan sampah secara visual, interaktif, dan informatif di wilayah Provinsi Kalimantan Timur. Data yang ditampilkan bersumber dari Sistem Informasi Pengelolaan Sampah Nasional (SIPSN) dan telah dianalisis melalui metode klasterisasi (K-Means) untuk mengidentifikasi wilayah prioritas.
+           
         </div>
         """, unsafe_allow_html=True)
     else:
